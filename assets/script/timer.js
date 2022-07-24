@@ -33,7 +33,7 @@ function relogio() {
   // PAUSA O TIMER AO CLICK
   stop.addEventListener("click", function (evento) {
     clearInterval(timer2);
-    timer1.style.color = "red";
+    timer1.style.color = "rgb(248, 99, 0)";
   });
 
   // ZERA O TIMER AO CLICK

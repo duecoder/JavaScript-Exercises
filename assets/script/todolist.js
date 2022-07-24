@@ -14,7 +14,7 @@ function scope() {
     const tarefa = inputTarefa.value;
 
     addTask(tarefa);
-    lista.innerHTML += `<li>${tarefa} <button type="delete" class="del">X</button></li>`;
+    lista.innerHTML += `<li>${tarefa} <button type="delete" class="del btn btn-sm">X</button></li>`;
     console.log(tarefas);
 
     inputTarefa.value = "";
